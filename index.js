@@ -21,11 +21,11 @@ function Circle(radius){
 
 const another = new Circle(1);
 
-const Circle1 = new Function('radius', '
+const Circle1 = new Function('radius', `
 this.radius = radius;
 this.draw = function(){
     console.log("draw");
 }
-');
+`);
 
 const another = new Circle(1);
