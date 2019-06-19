@@ -28,4 +28,4 @@ this.draw = function(){
 }
 `);
 
-const another = new Circle(1);
+const orange = new Circle(1);
